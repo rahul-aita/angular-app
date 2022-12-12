@@ -1,0 +1,16 @@
+.active-link{
+    font-weight: bold;
+}
+.navbar-light .navbar-nav{
+    color:var(--secondary-color);
+   font-size: 18px;
+}
+.navbar-light .navbar-nav .nav-link.active-link{
+    color:var(--primary-color);
+}
+.navbar-brand{
+    color: aqua;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

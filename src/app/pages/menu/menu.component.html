@@ -1,0 +1,15 @@
+
+<div class="container-fluid mt-5 mb-5 menu-img " >
+    <div class="row ">
+        <div class="col-lg-6">
+            <div class="coursebox mt-3 mb-3"  *ngFor="let cs of courseData;index as i">
+                <img src="{{cs.courseImg}}">
+                <p>{{cs.courseDetails}}</p>
+                <h1>{{cs.courseName}}</h1>
+                <p>{{cs.corseFee}}</p>
+                <a class="go-ahead"[routerLink]="['/menu',cs.id]">Go ahead &nbsp;<i class="bi bi-bag"></i></a>
+            </div>
+        </div>
+    </div>
+
+</div>

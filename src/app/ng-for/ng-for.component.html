@@ -1,0 +1,57 @@
+<!-- <div class="container">
+    <div class="col-md-12">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <td>serial no</td>
+                    <td>product image</td>
+                    <td>product name</td>
+                    <td>product id</td>
+                    <td>product price</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let mypro of products; index as i">
+                    <td>#{{i+1}}</td>
+                    <td ><img src={{mypro.proimg}} alt="img" width="100"></td>
+                    <td>{{mypro.name}} </td>
+                    <td>{{mypro.id}}</td>
+                    <td>{{mypro.price}}</td>
+                </tr>
+            </tbody>
+            
+        </table>
+
+    </div> 
+</div>
+ <div class="container">
+  <br />
+  <div class="row">
+    <div class="col-md-3">
+      <input type="text" name="" class="form-control" #UsrName [(ngModel)]="username" placeholder="username" />
+    </div>
+    <div class="col-md-3">
+      <button class="btn btn-success" (click)="onCreateUser(UsrName)">create user</button>
+    </div>
+    <div class="col-md-3">
+        <button class="btn btn-danger" (click)="onRemoveUser(UsrName)">remove user</button>
+      </div>
+  </div>
+</div>
+<div class="row">
+    <div class="col-md-10">
+        <table class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Username</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let user of users">
+                    <td>{{user.name}}</td>
+                    <td>   <button class="btn btn-danger" (click)="onRemoveItem(i)">remove user</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>  -->

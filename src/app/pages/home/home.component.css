@@ -1,0 +1,136 @@
+/* 
+.page-area{
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+    min-height: 400px;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+.box{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px; 
+    width: 90%;
+    text-align: center;
+  }
+.custom-dropdown{
+    margin: 20px;
+}
+  .dropdown-header {
+    border: 1px solid #d5bebe;
+    display: block;
+    text-align: left;
+    padding: 8px;
+    line-height: 1.2;
+    position: relative;
+}
+.dropdown-header::after {
+    content: '';
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    right: 9px;
+    border-left: 2px solid #908a8a;
+    border-bottom: 2px solid #908a8a;
+    transform: rotate(-45deg);
+}
+.dropdown-content {
+    border: 1px solid #d5bebe;
+    display: none;
+}
+.dropdown-header.active + .dropdown-content{
+    display: block
+}
+.dropdown-content a {
+    display: block;
+    text-align: left;
+    padding: 5px 12px;
+}
+.dropdown-content a:hover{
+    background: #fff;
+    text-decoration: none;
+} */
+.banner{
+    background-image: url('/assets/photo-1546410531-bb4caa6b424d.avif');
+    background-position:center-top;
+    background-size: cover;
+    height: 700px;
+}
+
+.content{
+    font-size: 20px;
+    text-decoration: none;
+    top: 30%;
+    left: 20%;
+    position: absolute;
+}
+.content h1{
+    color: var(--primary-color);
+    font-size: 60px;
+    font-weight: bold;
+}
+.content a{
+    text-decoration: none;
+    background-color: #fff;
+    color: var(--primary-color);
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.content a:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.stepBox{
+    background-color: black;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.stepBox h1{
+    color: var(--primary-color);
+    font-size: 50px;
+    font-weight: bold;
+}
+.stepBox p{
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+}
+.hightlight{
+color: var(--primary-color);
+font-weight: bold;
+text-decoration: underline;
+}
+.coursebox{
+    padding: 10px 5px;
+}
+.coursebox img{
+width: 100%;
+height: 250px;
+object-fit: cover;
+border-radius: 5px;
+}
+.coursebox h1{
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.viewmorebtn{
+    text-decoration: none;
+    color: var(--primary-color);
+    background-color:#000;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+@media screen and(max-width:600px){
+    .banner{
+       
+        height: 700px;
+    }
+}

@@ -1,0 +1,47 @@
+<div class="banner">
+  <div class="content">
+    <h1 class="mb-3">Learn GROW and EXPLORE</h1>
+    <a class="text-secondary" href="https://catalins.tech/14-best-web-developer-portfolios-to-get-inspiration"
+      >EXPLORE HERE<i class="bi bi-arrow-right"></i
+    ></a>
+  </div>
+</div>
+<div class="container mt-5 mb-5">
+  <h1 class="text-center">How to <span class="hightlight"><a [routerLink]="['/join']">Join Our Team</a></span></h1>
+  <div class="row mt-5">
+   
+    <div class="col-lg-4 mt-2">
+      <div class="stepBox">
+        <h1>1</h1>
+      <p>Choose Courses</p>
+      </div>
+    </div>
+    <div class="col-lg-4 mt-2">
+    <div class="stepBox">
+      <h1>2</h1>
+      <p>Fill your details</p>
+    </div>
+    </div>
+    <div class="col-lg-4 mt-2">
+      <div class="stepBox">
+        <h1>3</h1>
+      <p>we will contact shortly</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- course box -->
+<div class="container mt-4 mb-4">
+  <h1 class="text-center">Demand  on <span class="hightlight">Courses</span></h1>
+  <div class="row">
+    <div class="col-lg-3" *ngFor="let cs of courseData;index as i">
+      <div class="coursebox" *ngIf="i<=4">
+        <img src="{{cs.courseImg}}"/>
+        <h1>{{cs.courseName}}</h1>
+        <p>{{cs.corseFee}}</p>
+      </div>
+    </div>
+  </div>
+  <a routerLink="Menu" class="viewmorebtn"> view more <i class="bi bi-arrow-right"></i></a>
+</div>
